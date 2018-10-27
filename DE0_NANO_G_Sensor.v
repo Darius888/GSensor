@@ -54,6 +54,9 @@ module DE0_NANO_G_Sensor(
 
 	//////////// KEY //////////
 	KEY,
+	
+	//////////// SWITCHES ////////////
+	SW,
 
 	//////////// Accelerometer and EEPROM //////////
 	G_SENSOR_CS_N,
@@ -80,6 +83,12 @@ output		     [7:0]		LED;
 //////////// KEY //////////
 input 		     [1:0]		KEY;
 
+//////////// SWITCHES ////////////
+
+input 		     [1:0]		SW;
+
+
+
 //////////// Accelerometer and EEPROM //////////
 output		          		G_SENSOR_CS_N;
 input 		          		G_SENSOR_INT;
@@ -92,6 +101,7 @@ inout 		          		I2C_SDAT;
 wire	        dly_rst;
 wire	        spi_clk, spi_clk_out;
 wire	[15:0]  data_x;
+wire     [1:0]  iSELECT;
 
 //=======================================================
 //  Structural coding
@@ -114,7 +124,8 @@ spi_ee_config u_spi_ee_config (
 						.iRSTN(!dly_rst),															
 						.iSPI_CLK(spi_clk),								
 						.iSPI_CLK_OUT(spi_clk_out),								
-						.iG_INT2(G_SENSOR_INT),            
+						.iG_INT2(G_SENSOR_INT),           
+						.iSELECT(SW),							
 						.oDATA_L(data_x[7:0]),
 						.oDATA_H(data_x[15:8]),
 						.SPI_SDIO(I2C_SDAT),

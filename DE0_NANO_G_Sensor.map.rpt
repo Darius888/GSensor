@@ -1,6 +1,6 @@
 Analysis & Synthesis report for DE0_NANO_G_Sensor
-Tue Oct 02 19:01:08 2018
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Sat Oct 27 18:54:23 2018
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -52,16 +52,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 02 19:01:08 2018       ;
-; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Analysis & Synthesis Status        ; Successful - Sat Oct 27 18:54:22 2018       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; DE0_NANO_G_Sensor                           ;
 ; Top-level Entity Name              ; DE0_NANO_G_Sensor                           ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 189                                         ;
-;     Total combinational functions  ; 164                                         ;
+; Total logic elements               ; 193                                         ;
+;     Total combinational functions  ; 168                                         ;
 ;     Dedicated logic registers      ; 112                                         ;
 ; Total registers                    ; 112                                         ;
-; Total pins                         ; 15                                          ;
+; Total pins                         ; 17                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -168,7 +168,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -177,19 +177,19 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                             ; Library ;
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
-; v/spi_param.h                    ; yes             ; User File                    ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_param.h                    ;         ;
-; v/spi_ee_config.v                ; yes             ; User Verilog HDL File        ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_ee_config.v                ;         ;
-; v/spi_controller.v               ; yes             ; User Verilog HDL File        ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_controller.v               ;         ;
-; v/reset_delay.v                  ; yes             ; User Verilog HDL File        ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/reset_delay.v                  ;         ;
-; v/led_driver.v                   ; yes             ; User Verilog HDL File        ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/led_driver.v                   ;         ;
-; DE0_NANO_G_Sensor.v              ; yes             ; User Verilog HDL File        ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v              ;         ;
-; v/spipll.v                       ; yes             ; User Wizard-Generated File   ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spipll.v                       ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altpll.tdf        ;         ;
-; aglobal180.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/aglobal180.inc    ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
-; db/spipll_altpll.v               ; yes             ; Auto-Generated Megafunction  ; C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v               ;         ;
+; v/spi_param.h                    ; yes             ; User File                    ; C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_param.h                ;         ;
+; v/spi_ee_config.v                ; yes             ; User Verilog HDL File        ; C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_ee_config.v            ;         ;
+; v/spi_controller.v               ; yes             ; User Verilog HDL File        ; C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_controller.v           ;         ;
+; v/reset_delay.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Darius/Desktop/FPGA/GSensor-master/v/reset_delay.v              ;         ;
+; v/led_driver.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Darius/Desktop/FPGA/GSensor-master/v/led_driver.v               ;         ;
+; DE0_NANO_G_Sensor.v              ; yes             ; User Verilog HDL File        ; C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v          ;         ;
+; v/spipll.v                       ; yes             ; User Wizard-Generated File   ; C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spipll.v                   ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf        ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc    ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc   ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc ;         ;
+; db/spipll_altpll.v               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v           ;         ;
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
 
 
@@ -198,23 +198,23 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                                 ;
 +---------------------------------------------+---------------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 189                                                                                   ;
+; Estimated Total logic elements              ; 193                                                                                   ;
 ;                                             ;                                                                                       ;
-; Total combinational functions               ; 164                                                                                   ;
+; Total combinational functions               ; 168                                                                                   ;
 ; Logic element usage by number of LUT inputs ;                                                                                       ;
-;     -- 4 input functions                    ; 50                                                                                    ;
-;     -- 3 input functions                    ; 43                                                                                    ;
+;     -- 4 input functions                    ; 53                                                                                    ;
+;     -- 3 input functions                    ; 44                                                                                    ;
 ;     -- <=2 input functions                  ; 71                                                                                    ;
 ;                                             ;                                                                                       ;
 ; Logic elements by mode                      ;                                                                                       ;
-;     -- normal mode                          ; 108                                                                                   ;
+;     -- normal mode                          ; 112                                                                                   ;
 ;     -- arithmetic mode                      ; 56                                                                                    ;
 ;                                             ;                                                                                       ;
 ; Total registers                             ; 112                                                                                   ;
 ;     -- Dedicated logic registers            ; 112                                                                                   ;
 ;     -- I/O registers                        ; 0                                                                                     ;
 ;                                             ;                                                                                       ;
-; I/O pins                                    ; 15                                                                                    ;
+; I/O pins                                    ; 17                                                                                    ;
 ;                                             ;                                                                                       ;
 ; Embedded Multiplier 9-bit elements          ; 0                                                                                     ;
 ;                                             ;                                                                                       ;
@@ -223,8 +223,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                                       ;
 ; Maximum fan-out node                        ; spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 66                                                                                    ;
-; Total fan-out                               ; 906                                                                                   ;
-; Average fan-out                             ; 2.94                                                                                  ;
+; Total fan-out                               ; 923                                                                                   ;
+; Average fan-out                             ; 2.92                                                                                  ;
 +---------------------------------------------+---------------------------------------------------------------------------------------+
 
 
@@ -233,10 +233,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                     ; Entity Name       ; Library Name ;
 +-----------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------+-------------------+--------------+
-; |DE0_NANO_G_Sensor                      ; 164 (0)             ; 112 (0)                   ; 0           ; 0            ; 0       ; 0         ; 15   ; 0            ; |DE0_NANO_G_Sensor                                                                      ; DE0_NANO_G_Sensor ; work         ;
+; |DE0_NANO_G_Sensor                      ; 168 (0)             ; 112 (0)                   ; 0           ; 0            ; 0       ; 0         ; 17   ; 0            ; |DE0_NANO_G_Sensor                                                                      ; DE0_NANO_G_Sensor ; work         ;
 ;    |led_driver:u_led_driver|            ; 70 (70)             ; 26 (26)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|led_driver:u_led_driver                                              ; led_driver        ; work         ;
 ;    |reset_delay:u_reset_delay|          ; 22 (22)             ; 22 (22)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|reset_delay:u_reset_delay                                            ; reset_delay       ; work         ;
-;    |spi_ee_config:u_spi_ee_config|      ; 72 (53)             ; 64 (51)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config                                        ; spi_ee_config     ; work         ;
+;    |spi_ee_config:u_spi_ee_config|      ; 76 (57)             ; 64 (51)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config                                        ; spi_ee_config     ; work         ;
 ;       |spi_controller:u_spi_controller| ; 19 (19)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller        ; spi_controller    ; work         ;
 ;    |spipll:u_spipll|                    ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|spipll:u_spipll                                                      ; spipll            ; work         ;
 ;       |altpll:altpll_component|         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_NANO_G_Sensor|spipll:u_spipll|altpll:altpll_component                              ; altpll            ; work         ;
@@ -250,7 +250,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+------------------------------------+-----------------+
 ; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                    ; IP Include File ;
 +--------+--------------+---------+--------------+--------------+------------------------------------+-----------------+
-; Altera ; ALTPLL       ; 18.0    ; N/A          ; N/A          ; |DE0_NANO_G_Sensor|spipll:u_spipll ; v/spipll.v      ;
+; Altera ; ALTPLL       ; 18.1    ; N/A          ; N/A          ; |DE0_NANO_G_Sensor|spipll:u_spipll ; v/spipll.v      ;
 +--------+--------------+---------+--------------+--------------+------------------------------------+-----------------+
 
 
@@ -305,7 +305,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 3:1                ; 23 bits   ; 46 LEs        ; 23 LEs               ; 23 LEs                 ; Yes        ; |DE0_NANO_G_Sensor|led_driver:u_led_driver|int2_count[20]           ;
 ; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; Yes        ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|read_idle_count[9] ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; Yes        ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|p2s_data[15]       ;
-; 6:1                ; 5 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|p2s_data[12]       ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|p2s_data[12]       ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |DE0_NANO_G_Sensor|led_driver:u_led_driver|oLED[7]                  ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |DE0_NANO_G_Sensor|led_driver:u_led_driver|oLED[3]                  ;
 ; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |DE0_NANO_G_Sensor|led_driver:u_led_driver|abs_select_high[1]       ;
@@ -787,7 +787,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 15                          ;
+; boundary_port         ; 17                          ;
 ; cycloneiii_ff         ; 112                         ;
 ;     CLR               ; 22                          ;
 ;     ENA               ; 31                          ;
@@ -795,15 +795,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA CLR SCLR      ; 15                          ;
 ;     plain             ; 1                           ;
 ; cycloneiii_io_obuf    ; 1                           ;
-; cycloneiii_lcell_comb ; 167                         ;
+; cycloneiii_lcell_comb ; 171                         ;
 ;     arith             ; 56                          ;
 ;         2 data inputs ; 55                          ;
 ;         3 data inputs ; 1                           ;
-;     normal            ; 111                         ;
+;     normal            ; 115                         ;
 ;         1 data inputs ; 7                           ;
 ;         2 data inputs ; 12                          ;
-;         3 data inputs ; 42                          ;
-;         4 data inputs ; 50                          ;
+;         3 data inputs ; 43                          ;
+;         4 data inputs ; 53                          ;
 ; cycloneiii_pll        ; 1                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.30                        ;
@@ -816,7 +816,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -825,29 +825,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Oct 02 19:00:32 2018
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Sat Oct 27 18:54:00 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE0_NANO_G_Sensor -c DE0_NANO_G_Sensor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file v/spi_ee_config.v
-    Info (12023): Found entity 1: spi_ee_config File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_ee_config.v Line: 1
+    Info (12023): Found entity 1: spi_ee_config File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_ee_config.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/spi_controller.v
-    Info (12023): Found entity 1: spi_controller File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_controller.v Line: 1
+    Info (12023): Found entity 1: spi_controller File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_controller.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/reset_delay.v
-    Info (12023): Found entity 1: reset_delay File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/reset_delay.v Line: 1
+    Info (12023): Found entity 1: reset_delay File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/reset_delay.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/led_driver.v
-    Info (12023): Found entity 1: led_driver File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/led_driver.v Line: 1
+    Info (12023): Found entity 1: led_driver File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/led_driver.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file de0_nano_g_sensor.v
-    Info (12023): Found entity 1: DE0_NANO_G_Sensor File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 47
+    Info (12023): Found entity 1: DE0_NANO_G_Sensor File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file v/spipll.v
-    Info (12023): Found entity 1: spipll File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spipll.v Line: 39
+    Info (12023): Found entity 1: spipll File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spipll.v Line: 39
 Info (12127): Elaborating entity "DE0_NANO_G_Sensor" for the top level hierarchy
-Info (12128): Elaborating entity "reset_delay" for hierarchy "reset_delay:u_reset_delay" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 103
-Info (12128): Elaborating entity "spipll" for hierarchy "spipll:u_spipll" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 110
-Info (12128): Elaborating entity "altpll" for hierarchy "spipll:u_spipll|altpll:altpll_component" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spipll.v Line: 103
-Info (12130): Elaborated megafunction instantiation "spipll:u_spipll|altpll:altpll_component" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spipll.v Line: 103
-Info (12133): Instantiated megafunction "spipll:u_spipll|altpll:altpll_component" with the following parameter: File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spipll.v Line: 103
+Info (12128): Elaborating entity "reset_delay" for hierarchy "reset_delay:u_reset_delay" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 113
+Info (12128): Elaborating entity "spipll" for hierarchy "spipll:u_spipll" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 120
+Info (12128): Elaborating entity "altpll" for hierarchy "spipll:u_spipll|altpll:altpll_component" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spipll.v Line: 103
+Info (12130): Elaborated megafunction instantiation "spipll:u_spipll|altpll:altpll_component" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spipll.v Line: 103
+Info (12133): Instantiated megafunction "spipll:u_spipll|altpll:altpll_component" with the following parameter: File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spipll.v Line: 103
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "25"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -907,38 +907,38 @@ Info (12133): Instantiated megafunction "spipll:u_spipll|altpll:altpll_component
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/spipll_altpll.v
-    Info (12023): Found entity 1: spipll_altpll File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v Line: 29
-Info (12128): Elaborating entity "spipll_altpll" for hierarchy "spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated" File: c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "spi_ee_config" for hierarchy "spi_ee_config:u_spi_ee_config" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 122
-Warning (10230): Verilog HDL assignment warning at spi_ee_config.v(113): truncated value with size 32 to match size of target (15) File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_ee_config.v Line: 113
-Info (12128): Elaborating entity "spi_controller" for hierarchy "spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/spi_ee_config.v Line: 60
-Info (12128): Elaborating entity "led_driver" for hierarchy "led_driver:u_led_driver" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 130
-Warning (10036): Verilog HDL or VHDL warning at led_driver.v(16): object "int2_count_en" assigned a value but never read File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/led_driver.v Line: 16
-Warning (10230): Verilog HDL assignment warning at led_driver.v(54): truncated value with size 32 to match size of target (24) File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/led_driver.v Line: 54
-Info (13000): Registers with preset signals will power-up high File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/v/led_driver.v Line: 44
+    Info (12023): Found entity 1: spipll_altpll File: C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v Line: 29
+Info (12128): Elaborating entity "spipll_altpll" for hierarchy "spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
+Info (12128): Elaborating entity "spi_ee_config" for hierarchy "spi_ee_config:u_spi_ee_config" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 133
+Warning (10230): Verilog HDL assignment warning at spi_ee_config.v(146): truncated value with size 32 to match size of target (15) File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_ee_config.v Line: 146
+Info (12128): Elaborating entity "spi_controller" for hierarchy "spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/spi_ee_config.v Line: 64
+Info (12128): Elaborating entity "led_driver" for hierarchy "led_driver:u_led_driver" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 141
+Warning (10036): Verilog HDL or VHDL warning at led_driver.v(16): object "int2_count_en" assigned a value but never read File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/led_driver.v Line: 16
+Warning (10230): Verilog HDL assignment warning at led_driver.v(54): truncated value with size 32 to match size of target (24) File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/led_driver.v Line: 54
+Info (13000): Registers with preset signals will power-up high File: C:/Users/Darius/Desktop/FPGA/GSensor-master/v/led_driver.v Line: 44
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 81
-Info (21057): Implemented 206 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 84
+Info (21057): Implemented 212 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
     Info (21059): Implemented 10 output pins
     Info (21060): Implemented 1 bidirectional pins
-    Info (21061): Implemented 190 logic cells
+    Info (21061): Implemented 194 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4785 megabytes
-    Info: Processing ended: Tue Oct 02 19:01:08 2018
-    Info: Elapsed time: 00:00:36
-    Info: Total CPU time (on all processors): 00:00:46
+    Info: Peak virtual memory: 4767 megabytes
+    Info: Processing ended: Sat Oct 27 18:54:23 2018
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:44
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.map.smsg.
+The suppressed messages can be found in C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.map.smsg.
 
 

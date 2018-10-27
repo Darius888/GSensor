@@ -1,6 +1,6 @@
 Flow report for DE0_NANO_G_Sensor
-Tue Oct 02 19:02:18 2018
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Sat Oct 27 18:54:43 2018
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 02 19:02:04 2018       ;
-; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Flow Status                        ; Successful - Sat Oct 27 18:54:38 2018       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; DE0_NANO_G_Sensor                           ;
 ; Top-level Entity Name              ; DE0_NANO_G_Sensor                           ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 179 / 22,320 ( < 1 % )                      ;
-;     Total combinational functions  ; 164 / 22,320 ( < 1 % )                      ;
+; Total logic elements               ; 183 / 22,320 ( < 1 % )                      ;
+;     Total combinational functions  ; 168 / 22,320 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 112 / 22,320 ( < 1 % )                      ;
 ; Total registers                    ; 112                                         ;
-; Total pins                         ; 15 / 154 ( 10 % )                           ;
+; Total pins                         ; 17 / 154 ( 11 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                             ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/02/2018 19:00:35 ;
+; Start date & time ; 10/27/2018 18:54:01 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE0_NANO_G_Sensor   ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 48853201900568.153849603407060         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 22095319028795.154065564114556         ; --            ; --          ; --         ;
 ; ENABLE_SIGNALTAP                    ; Off                                    ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
@@ -94,11 +94,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:32     ; 1.0                     ; 4773 MB             ; 00:00:45                           ;
-; Fitter               ; 00:00:31     ; 1.0                     ; 5263 MB             ; 00:00:10                           ;
-; Assembler            ; 00:00:09     ; 1.0                     ; 4688 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 4771 MB             ; 00:00:03                           ;
-; Total                ; 00:01:23     ; --                      ; --                  ; 00:01:00                           ;
+; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 4757 MB             ; 00:00:44                           ;
+; Fitter               ; 00:00:10     ; 1.0                     ; 5260 MB             ; 00:00:09                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4693 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4772 MB             ; 00:00:03                           ;
+; Total                ; 00:00:38     ; --                      ; --                  ; 00:00:58                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -107,10 +107,10 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-N0HV6QP  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-N0HV6QP  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-N0HV6QP  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-N0HV6QP  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-89V3397  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-89V3397  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-89V3397  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-89V3397  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

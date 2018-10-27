@@ -1,6 +1,6 @@
 Fitter report for DE0_NANO_G_Sensor
-Tue Oct 02 19:01:41 2018
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Sat Oct 27 18:54:34 2018
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -68,18 +68,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Oct 02 19:01:41 2018       ;
-; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Fitter Status                      ; Successful - Sat Oct 27 18:54:34 2018       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; DE0_NANO_G_Sensor                           ;
 ; Top-level Entity Name              ; DE0_NANO_G_Sensor                           ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 179 / 22,320 ( < 1 % )                      ;
-;     Total combinational functions  ; 164 / 22,320 ( < 1 % )                      ;
+; Total logic elements               ; 183 / 22,320 ( < 1 % )                      ;
+;     Total combinational functions  ; 168 / 22,320 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 112 / 22,320 ( < 1 % )                      ;
 ; Total registers                    ; 112                                         ;
-; Total pins                         ; 15 / 154 ( 10 % )                           ;
+; Total pins                         ; 17 / 154 ( 11 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                             ;
@@ -160,7 +160,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.9%      ;
+;     Processor 2            ;   0.5%      ;
 +----------------------------+-------------+
 
 
@@ -170,8 +170,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 322 ) ; 0.00 % ( 0 / 322 )         ; 0.00 % ( 0 / 322 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 322 ) ; 0.00 % ( 0 / 322 )         ; 0.00 % ( 0 / 322 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 330 ) ; 0.00 % ( 0 / 330 )         ; 0.00 % ( 0 / 330 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 330 ) ; 0.00 % ( 0 / 330 )         ; 0.00 % ( 0 / 330 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -194,7 +194,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 309 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 317 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 13 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -202,7 +202,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.pin.
+The pin-out file can be found in C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.pin.
 
 
 +----------------------------------------------------------------------+
@@ -210,28 +210,28 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Total logic elements                        ; 179 / 22,320 ( < 1 % ) ;
-;     -- Combinational with no register       ; 67                     ;
+; Total logic elements                        ; 183 / 22,320 ( < 1 % ) ;
+;     -- Combinational with no register       ; 71                     ;
 ;     -- Register only                        ; 15                     ;
 ;     -- Combinational with a register        ; 97                     ;
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 50                     ;
-;     -- 3 input functions                    ; 43                     ;
+;     -- 4 input functions                    ; 53                     ;
+;     -- 3 input functions                    ; 44                     ;
 ;     -- <=2 input functions                  ; 71                     ;
 ;     -- Register only                        ; 15                     ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
-;     -- normal mode                          ; 108                    ;
+;     -- normal mode                          ; 112                    ;
 ;     -- arithmetic mode                      ; 56                     ;
 ;                                             ;                        ;
 ; Total registers*                            ; 112 / 23,018 ( < 1 % ) ;
 ;     -- Dedicated logic registers            ; 112 / 22,320 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 698 ( 0 % )        ;
 ;                                             ;                        ;
-; Total LABs:  partially or completely used   ; 23 / 1,395 ( 2 % )     ;
+; Total LABs:  partially or completely used   ; 16 / 1,395 ( 1 % )     ;
 ; Virtual pins                                ; 0                      ;
-; I/O pins                                    ; 15 / 154 ( 10 % )      ;
+; I/O pins                                    ; 17 / 154 ( 11 % )      ;
 ;     -- Clock pins                           ; 3 / 7 ( 43 % )         ;
 ;     -- Dedicated input pins                 ; 0 / 9 ( 0 % )          ;
 ;                                             ;                        ;
@@ -247,12 +247,12 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )          ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )          ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )          ;
-; Average interconnect usage (total/H/V)      ; 0.3% / 0.3% / 0.2%     ;
-; Peak interconnect usage (total/H/V)         ; 1.0% / 0.9% / 1.3%     ;
+; Average interconnect usage (total/H/V)      ; 0.2% / 0.3% / 0.2%     ;
+; Peak interconnect usage (total/H/V)         ; 0.9% / 0.9% / 1.0%     ;
 ; Maximum fan-out                             ; 65                     ;
 ; Highest non-global fan-out                  ; 65                     ;
-; Total fan-out                               ; 925                    ;
-; Average fan-out                             ; 2.79                   ;
+; Total fan-out                               ; 942                    ;
+; Average fan-out                             ; 2.77                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -265,29 +265,29 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 +---------------------------------------------+-----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                   ; Low                            ;
 ;                                             ;                       ;                                ;
-; Total logic elements                        ; 179 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
-;     -- Combinational with no register       ; 67                    ; 0                              ;
+; Total logic elements                        ; 183 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
+;     -- Combinational with no register       ; 71                    ; 0                              ;
 ;     -- Register only                        ; 15                    ; 0                              ;
 ;     -- Combinational with a register        ; 97                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
-;     -- 4 input functions                    ; 50                    ; 0                              ;
-;     -- 3 input functions                    ; 43                    ; 0                              ;
+;     -- 4 input functions                    ; 53                    ; 0                              ;
+;     -- 3 input functions                    ; 44                    ; 0                              ;
 ;     -- <=2 input functions                  ; 71                    ; 0                              ;
 ;     -- Register only                        ; 15                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
-;     -- normal mode                          ; 108                   ; 0                              ;
+;     -- normal mode                          ; 112                   ; 0                              ;
 ;     -- arithmetic mode                      ; 56                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Total registers                             ; 112                   ; 0                              ;
 ;     -- Dedicated logic registers            ; 112 / 22320 ( < 1 % ) ; 0 / 22320 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
-; Total LABs:  partially or completely used   ; 23 / 1395 ( 2 % )     ; 0 / 1395 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 16 / 1395 ( 1 % )     ; 0 / 1395 ( 0 % )               ;
 ;                                             ;                       ;                                ;
 ; Virtual pins                                ; 0                     ; 0                              ;
-; I/O pins                                    ; 15                    ; 0                              ;
+; I/O pins                                    ; 17                    ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 132 ( 0 % )       ; 0 / 132 ( 0 % )                ;
 ; Total memory bits                           ; 0                     ; 0                              ;
 ; Total RAM block bits                        ; 0                     ; 0                              ;
@@ -301,15 +301,15 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ;     -- Registered Output Connections        ; 1                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 917                   ; 75                             ;
-;     -- Registered Connections               ; 480                   ; 0                              ;
+;     -- Total Connections                    ; 934                   ; 75                             ;
+;     -- Registered Connections               ; 483                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
 ;     -- Top                                  ; 2                     ; 67                             ;
 ;     -- hard_block:auto_generated_inst       ; 67                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Partition Interface                         ;                       ;                                ;
-;     -- Input Ports                          ; 4                     ; 2                              ;
+;     -- Input Ports                          ; 6                     ; 2                              ;
 ;     -- Output Ports                         ; 10                    ; 2                              ;
 ;     -- Bidir Ports                          ; 1                     ; 0                              ;
 ;                                             ;                       ;                                ;
@@ -338,6 +338,8 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ; G_SENSOR_INT ; M2    ; 2        ; 0            ; 16           ; 14           ; 7                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
 ; KEY[0]       ; J15   ; 5        ; 53           ; 14           ; 0            ; 22                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
 ; KEY[1]       ; E1    ; 1        ; 0            ; 16           ; 7            ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 3.3-V LVTTL  ; --                        ; User                 ; no        ;
+; SW[0]        ; T8    ; 3        ; 27           ; 0            ; 14           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
+; SW[1]        ; M1    ; 2        ; 0            ; 16           ; 21           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; no        ;
 +--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
@@ -397,8 +399,8 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
 ; 1        ; 11 / 14 ( 79 % ) ; 3.3V          ; --           ;
-; 2        ; 2 / 16 ( 13 % )  ; 3.3V          ; --           ;
-; 3        ; 1 / 25 ( 4 % )   ; 3.3V          ; --           ;
+; 2        ; 3 / 16 ( 19 % )  ; 3.3V          ; --           ;
+; 3        ; 2 / 25 ( 8 % )   ; 2.5V          ; --           ;
 ; 4        ; 0 / 20 ( 0 % )   ; 2.5V          ; --           ;
 ; 5        ; 1 / 18 ( 6 % )   ; 3.3V          ; --           ;
 ; 6        ; 1 / 13 ( 8 % )   ; 2.5V          ; --           ;
@@ -589,7 +591,7 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ; L14      ; 134        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; L15      ; 138        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L16      ; 137        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; M1       ; 28         ; 2        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; M1       ; 28         ; 2        ; SW[1]                                                     ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; M2       ; 27         ; 2        ; G_SENSOR_INT                                              ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; M3       ;            ; 2        ; VCCIO2                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; M4       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -624,10 +626,10 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ; P1       ; 51         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; P2       ; 50         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; P3       ; 53         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; P4       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
+; P4       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; P5       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; P6       ; 67         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; P7       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
+; P7       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; P8       ; 85         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; P9       ; 105        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; P10      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -653,14 +655,14 @@ The pin-out file can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NAN
 ; R14      ; 120        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; R15      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; R16      ; 129        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; T1       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
+; T1       ;            ; 3        ; VCCIO3                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; T2       ; 59         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; T3       ; 55         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; T4       ; 61         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; T5       ; 72         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; T6       ; 74         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; T7       ; 77         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; T8       ; 87         ; 3        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; T8       ; 87         ; 3        ; SW[0]                                                     ; input  ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; T9       ; 89         ; 4        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; T10      ; 97         ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; T11      ; 99         ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -748,11 +750,11 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node              ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                     ; Entity Name       ; Library Name ;
 +-----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------+-------------------+--------------+
-; |DE0_NANO_G_Sensor                      ; 179 (0)     ; 112 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 15   ; 0            ; 67 (0)       ; 15 (0)            ; 97 (0)           ; |DE0_NANO_G_Sensor                                                                      ; DE0_NANO_G_Sensor ; work         ;
+; |DE0_NANO_G_Sensor                      ; 183 (0)     ; 112 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 17   ; 0            ; 71 (0)       ; 15 (0)            ; 97 (0)           ; |DE0_NANO_G_Sensor                                                                      ; DE0_NANO_G_Sensor ; work         ;
 ;    |led_driver:u_led_driver|            ; 71 (71)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 40 (40)      ; 1 (1)             ; 30 (30)          ; |DE0_NANO_G_Sensor|led_driver:u_led_driver                                              ; led_driver        ; work         ;
 ;    |reset_delay:u_reset_delay|          ; 23 (23)     ; 22 (22)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 1 (1)             ; 21 (21)          ; |DE0_NANO_G_Sensor|reset_delay:u_reset_delay                                            ; reset_delay       ; work         ;
-;    |spi_ee_config:u_spi_ee_config|      ; 90 (64)     ; 64 (51)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 26 (13)      ; 13 (5)            ; 51 (45)          ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config                                        ; spi_ee_config     ; work         ;
-;       |spi_controller:u_spi_controller| ; 27 (27)     ; 13 (13)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 13 (13)      ; 8 (8)             ; 6 (6)            ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller        ; spi_controller    ; work         ;
+;    |spi_ee_config:u_spi_ee_config|      ; 94 (67)     ; 64 (51)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 30 (16)      ; 13 (5)            ; 51 (46)          ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config                                        ; spi_ee_config     ; work         ;
+;       |spi_controller:u_spi_controller| ; 27 (27)     ; 13 (13)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 14 (14)      ; 8 (8)             ; 5 (5)            ; |DE0_NANO_G_Sensor|spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller        ; spi_controller    ; work         ;
 ;    |spipll:u_spipll|                    ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |DE0_NANO_G_Sensor|spipll:u_spipll                                                      ; spipll            ; work         ;
 ;       |altpll:altpll_component|         ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |DE0_NANO_G_Sensor|spipll:u_spipll|altpll:altpll_component                              ; altpll            ; work         ;
 ;          |spipll_altpll:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |DE0_NANO_G_Sensor|spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated ; spipll_altpll     ; work         ;
@@ -776,10 +778,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; KEY[1]        ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; G_SENSOR_CS_N ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; I2C_SCLK      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; I2C_SDAT      ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; I2C_SDAT      ; Bidir    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; G_SENSOR_INT  ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 ; CLOCK_50      ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
-; KEY[0]        ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; KEY[0]        ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; SW[1]         ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
+; SW[0]         ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 +---------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -790,32 +794,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------+-------------------+---------+
 ; KEY[1]                                                                                   ;                   ;         ;
 ; I2C_SDAT                                                                                 ;                   ;         ;
-;      - spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller|oS2P_DATA[0]~feeder ; 0                 ; 6       ;
+;      - spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller|oS2P_DATA[0]~feeder ; 1                 ; 6       ;
 ; G_SENSOR_INT                                                                             ;                   ;         ;
 ; CLOCK_50                                                                                 ;                   ;         ;
 ; KEY[0]                                                                                   ;                   ;         ;
-;      - reset_delay:u_reset_delay|cont[20]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|oRST                                                    ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[19]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[18]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[17]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[16]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[15]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[14]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[13]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[12]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[11]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[10]                                                ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[9]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[8]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[7]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[6]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[5]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[4]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[3]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[2]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[0]                                                 ; 1                 ; 6       ;
-;      - reset_delay:u_reset_delay|cont[1]                                                 ; 1                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[20]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|oRST                                                    ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[19]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[18]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[17]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[16]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[15]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[14]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[13]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[12]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[11]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[10]                                                ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[9]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[8]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[7]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[6]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[5]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[4]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[3]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[2]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[0]                                                 ; 0                 ; 6       ;
+;      - reset_delay:u_reset_delay|cont[1]                                                 ; 0                 ; 6       ;
+; SW[1]                                                                                    ;                   ;         ;
+; SW[0]                                                                                    ;                   ;         ;
 +------------------------------------------------------------------------------------------+-------------------+---------+
 
 
@@ -827,17 +833,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; CLOCK_50                                                                              ; PIN_R8             ; 2       ; Clock                      ; no     ; --                   ; --               ; --                        ;
 ; CLOCK_50                                                                              ; PIN_R8             ; 48      ; Clock                      ; yes    ; Global Clock         ; GCLK15           ; --                        ;
 ; KEY[0]                                                                                ; PIN_J15            ; 22      ; Async. clear               ; no     ; --                   ; --               ; --                        ;
-; led_driver:u_led_driver|int2_count[20]~2                                              ; LCCOMB_X29_Y19_N8  ; 23      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; reset_delay:u_reset_delay|cont[20]                                                    ; FF_X48_Y11_N23     ; 23      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; reset_delay:u_reset_delay|oRST                                                        ; FF_X48_Y11_N29     ; 65      ; Async. clear, Clock enable ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|low_byte_data[7]~0                                      ; LCCOMB_X36_Y17_N30 ; 3       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|oDATA_H[1]~0                                            ; LCCOMB_X36_Y17_N0  ; 5       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|p2s_data[15]~12                                         ; LCCOMB_X36_Y17_N14 ; 6       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|p2s_data[6]~16                                          ; LCCOMB_X34_Y20_N26 ; 7       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|read_idle_count[14]~45                                  ; LCCOMB_X34_Y20_N16 ; 15      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller|SPI_SDIO~1              ; LCCOMB_X35_Y20_N22 ; 1       ; Output enable              ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller|oS2P_DATA[1]~0          ; LCCOMB_X35_Y20_N0  ; 8       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; spi_ee_config:u_spi_ee_config|spi_go                                                  ; FF_X35_Y20_N17     ; 26      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
+; led_driver:u_led_driver|int2_count[20]~2                                              ; LCCOMB_X40_Y15_N30 ; 23      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; reset_delay:u_reset_delay|cont[20]                                                    ; FF_X52_Y15_N29     ; 23      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; reset_delay:u_reset_delay|oRST                                                        ; FF_X52_Y16_N9      ; 65      ; Async. clear, Clock enable ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|low_byte_data[7]~0                                      ; LCCOMB_X29_Y20_N18 ; 3       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|oDATA_H[1]~0                                            ; LCCOMB_X29_Y20_N12 ; 5       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|p2s_data[15]~7                                          ; LCCOMB_X29_Y20_N10 ; 4       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|p2s_data[6]~14                                          ; LCCOMB_X29_Y21_N26 ; 7       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|p2s_data[6]~6                                           ; LCCOMB_X24_Y20_N30 ; 5       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|read_idle_count[14]~45                                  ; LCCOMB_X29_Y20_N28 ; 15      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller|SPI_SDIO~1              ; LCCOMB_X23_Y21_N14 ; 1       ; Output enable              ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|spi_controller:u_spi_controller|oS2P_DATA[1]~0          ; LCCOMB_X23_Y21_N4  ; 8       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; spi_ee_config:u_spi_ee_config|spi_go                                                  ; FF_X29_Y20_N17     ; 27      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
 ; spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[0] ; PLL_4              ; 64      ; Clock                      ; yes    ; Global Clock         ; GCLK18           ; --                        ;
 +---------------------------------------------------------------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 
@@ -858,50 +865,49 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+------------------------+
 ; Routing Resource Type ; Usage                  ;
 +-----------------------+------------------------+
-; Block interconnects   ; 177 / 71,559 ( < 1 % ) ;
-; C16 interconnects     ; 2 / 2,597 ( < 1 % )    ;
-; C4 interconnects      ; 118 / 46,848 ( < 1 % ) ;
-; Direct links          ; 31 / 71,559 ( < 1 % )  ;
+; Block interconnects   ; 158 / 71,559 ( < 1 % ) ;
+; C16 interconnects     ; 6 / 2,597 ( < 1 % )    ;
+; C4 interconnects      ; 83 / 46,848 ( < 1 % )  ;
+; Direct links          ; 52 / 71,559 ( < 1 % )  ;
 ; Global clocks         ; 3 / 20 ( 15 % )        ;
-; Local interconnects   ; 104 / 24,624 ( < 1 % ) ;
-; R24 interconnects     ; 14 / 2,496 ( < 1 % )   ;
-; R4 interconnects      ; 124 / 62,424 ( < 1 % ) ;
+; Local interconnects   ; 109 / 24,624 ( < 1 % ) ;
+; R24 interconnects     ; 18 / 2,496 ( < 1 % )   ;
+; R4 interconnects      ; 107 / 62,424 ( < 1 % ) ;
 +-----------------------+------------------------+
 
 
-+---------------------------------------------------------------------------+
-; LAB Logic Elements                                                        ;
-+--------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 7.78) ; Number of LABs  (Total = 23) ;
-+--------------------------------------------+------------------------------+
-; 1                                          ; 6                            ;
-; 2                                          ; 4                            ;
-; 3                                          ; 0                            ;
-; 4                                          ; 0                            ;
-; 5                                          ; 1                            ;
-; 6                                          ; 1                            ;
-; 7                                          ; 0                            ;
-; 8                                          ; 0                            ;
-; 9                                          ; 1                            ;
-; 10                                         ; 0                            ;
-; 11                                         ; 1                            ;
-; 12                                         ; 2                            ;
-; 13                                         ; 0                            ;
-; 14                                         ; 0                            ;
-; 15                                         ; 2                            ;
-; 16                                         ; 5                            ;
-+--------------------------------------------+------------------------------+
++----------------------------------------------------------------------------+
+; LAB Logic Elements                                                         ;
++---------------------------------------------+------------------------------+
+; Number of Logic Elements  (Average = 11.44) ; Number of LABs  (Total = 16) ;
++---------------------------------------------+------------------------------+
+; 1                                           ; 1                            ;
+; 2                                           ; 1                            ;
+; 3                                           ; 0                            ;
+; 4                                           ; 0                            ;
+; 5                                           ; 0                            ;
+; 6                                           ; 1                            ;
+; 7                                           ; 0                            ;
+; 8                                           ; 1                            ;
+; 9                                           ; 1                            ;
+; 10                                          ; 0                            ;
+; 11                                          ; 2                            ;
+; 12                                          ; 2                            ;
+; 13                                          ; 0                            ;
+; 14                                          ; 0                            ;
+; 15                                          ; 1                            ;
+; 16                                          ; 6                            ;
++---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.83) ; Number of LABs  (Total = 23) ;
+; LAB-wide Signals  (Average = 1.94) ; Number of LABs  (Total = 16) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 11                           ;
-; 1 Clock                            ; 17                           ;
-; 1 Clock enable                     ; 10                           ;
-; 1 Sync. clear                      ; 1                            ;
+; 1 Async. clear                     ; 8                            ;
+; 1 Clock                            ; 14                           ;
+; 1 Clock enable                     ; 6                            ;
 ; 2 Clock enables                    ; 3                            ;
 +------------------------------------+------------------------------+
 
@@ -909,39 +915,39 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 12.48) ; Number of LABs  (Total = 23) ;
+; Number of Signals Sourced  (Average = 18.19) ; Number of LABs  (Total = 16) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 3                            ;
-; 2                                            ; 4                            ;
-; 3                                            ; 1                            ;
-; 4                                            ; 2                            ;
-; 5                                            ; 1                            ;
-; 6                                            ; 0                            ;
+; 1                                            ; 0                            ;
+; 2                                            ; 2                            ;
+; 3                                            ; 0                            ;
+; 4                                            ; 0                            ;
+; 5                                            ; 0                            ;
+; 6                                            ; 1                            ;
 ; 7                                            ; 0                            ;
 ; 8                                            ; 0                            ;
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
-; 11                                           ; 1                            ;
-; 12                                           ; 1                            ;
+; 11                                           ; 0                            ;
+; 12                                           ; 0                            ;
 ; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
 ; 15                                           ; 0                            ;
-; 16                                           ; 0                            ;
-; 17                                           ; 1                            ;
-; 18                                           ; 0                            ;
-; 19                                           ; 1                            ;
-; 20                                           ; 0                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 2                            ;
+; 16                                           ; 2                            ;
+; 17                                           ; 0                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 2                            ;
+; 20                                           ; 1                            ;
+; 21                                           ; 2                            ;
+; 22                                           ; 1                            ;
 ; 23                                           ; 0                            ;
 ; 24                                           ; 1                            ;
-; 25                                           ; 1                            ;
-; 26                                           ; 1                            ;
-; 27                                           ; 0                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 2                            ;
 ; 28                                           ; 0                            ;
 ; 29                                           ; 0                            ;
-; 30                                           ; 1                            ;
+; 30                                           ; 0                            ;
 ; 31                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
@@ -949,60 +955,47 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 4.74) ; Number of LABs  (Total = 23) ;
+; Number of Signals Sourced Out  (Average = 6.19) ; Number of LABs  (Total = 16) ;
 +-------------------------------------------------+------------------------------+
-; 0                                               ; 1                            ;
-; 1                                               ; 7                            ;
-; 2                                               ; 5                            ;
+; 0                                               ; 0                            ;
+; 1                                               ; 3                            ;
+; 2                                               ; 2                            ;
 ; 3                                               ; 0                            ;
-; 4                                               ; 2                            ;
-; 5                                               ; 1                            ;
-; 6                                               ; 0                            ;
+; 4                                               ; 1                            ;
+; 5                                               ; 0                            ;
+; 6                                               ; 1                            ;
 ; 7                                               ; 1                            ;
-; 8                                               ; 1                            ;
+; 8                                               ; 3                            ;
 ; 9                                               ; 2                            ;
-; 10                                              ; 0                            ;
-; 11                                              ; 0                            ;
+; 10                                              ; 1                            ;
+; 11                                              ; 1                            ;
 ; 12                                              ; 1                            ;
-; 13                                              ; 0                            ;
-; 14                                              ; 0                            ;
-; 15                                              ; 1                            ;
-; 16                                              ; 0                            ;
-; 17                                              ; 0                            ;
-; 18                                              ; 0                            ;
-; 19                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 7.39) ; Number of LABs  (Total = 23) ;
+; Number of Distinct Inputs  (Average = 8.81) ; Number of LABs  (Total = 16) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
 ; 1                                           ; 0                            ;
-; 2                                           ; 1                            ;
-; 3                                           ; 5                            ;
-; 4                                           ; 3                            ;
-; 5                                           ; 1                            ;
-; 6                                           ; 4                            ;
-; 7                                           ; 2                            ;
+; 2                                           ; 0                            ;
+; 3                                           ; 3                            ;
+; 4                                           ; 2                            ;
+; 5                                           ; 0                            ;
+; 6                                           ; 0                            ;
+; 7                                           ; 3                            ;
 ; 8                                           ; 0                            ;
 ; 9                                           ; 1                            ;
-; 10                                          ; 0                            ;
+; 10                                          ; 1                            ;
 ; 11                                          ; 1                            ;
-; 12                                          ; 2                            ;
+; 12                                          ; 0                            ;
 ; 13                                          ; 1                            ;
-; 14                                          ; 0                            ;
-; 15                                          ; 0                            ;
+; 14                                          ; 2                            ;
+; 15                                          ; 1                            ;
 ; 16                                          ; 0                            ;
-; 17                                          ; 0                            ;
-; 18                                          ; 1                            ;
-; 19                                          ; 0                            ;
-; 20                                          ; 0                            ;
-; 21                                          ; 0                            ;
-; 22                                          ; 0                            ;
-; 23                                          ; 1                            ;
+; 17                                          ; 1                            ;
 +---------------------------------------------+------------------------------+
 
 
@@ -1062,9 +1055,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
-; Total Pass         ; 15        ; 0            ; 15        ; 0            ; 0            ; 15        ; 15        ; 0            ; 15        ; 15        ; 0            ; 0            ; 0            ; 0            ; 5            ; 0            ; 0            ; 5            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 15        ; 0            ; 0            ;
+; Total Pass         ; 17        ; 0            ; 17        ; 0            ; 0            ; 17        ; 17        ; 0            ; 17        ; 17        ; 0            ; 0            ; 0            ; 0            ; 7            ; 0            ; 0            ; 7            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 17        ; 0            ; 0            ;
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 15           ; 0         ; 15           ; 15           ; 0         ; 0         ; 15           ; 0         ; 0         ; 15           ; 15           ; 15           ; 15           ; 10           ; 15           ; 15           ; 10           ; 15           ; 15           ; 15           ; 15           ; 15           ; 15           ; 15           ; 15           ; 15           ; 0         ; 15           ; 15           ;
+; Total Inapplicable ; 0         ; 17           ; 0         ; 17           ; 17           ; 0         ; 0         ; 17           ; 0         ; 0         ; 17           ; 17           ; 17           ; 17           ; 10           ; 17           ; 17           ; 10           ; 17           ; 17           ; 17           ; 17           ; 17           ; 17           ; 17           ; 17           ; 17           ; 0         ; 17           ; 17           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
 ; LED[0]             ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LED[1]             ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
@@ -1081,6 +1074,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; G_SENSOR_INT       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; CLOCK_50           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; KEY[0]             ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; SW[1]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; SW[0]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -1128,9 +1123,9 @@ Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors
 Info (119006): Selected device EP4CE22F17C6 for design "DE0_NANO_G_Sensor"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v Line: 46
-    Info (15099): Implementing clock multiplication of 1, clock division of 25, and phase shift of 144 degrees (200000 ps) for spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v Line: 46
-    Info (15099): Implementing clock multiplication of 1, clock division of 25, and phase shift of 120 degrees (166667 ps) for spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[1] port File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v Line: 46
+Info (15535): Implemented PLL "spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 1, clock division of 25, and phase shift of 144 degrees (200000 ps) for spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v Line: 46
+    Info (15099): Implementing clock multiplication of 1, clock division of 25, and phase shift of 120 degrees (166667 ps) for spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[1] port File: C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v Line: 46
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -1151,52 +1146,53 @@ Info (332096): The command derive_clocks did not find any clocks to derive.  No 
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 75
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G15
-Info (176353): Automatically promoted node spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_4) File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v Line: 80
+Info (176353): Automatically promoted node spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_4) File: C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v Line: 80
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
-Info (176353): Automatically promoted node spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C1 of PLL_4) File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/db/spipll_altpll.v Line: 80
+Info (176353): Automatically promoted node spipll:u_spipll|altpll:altpll_component|spipll_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C1 of PLL_4) File: C:/Users/Darius/Desktop/FPGA/GSensor-master/db/spipll_altpll.v Line: 80
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:08
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X32_Y11 to location X42_Y22
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X21_Y11 to location X31_Y22
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.25 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
+Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
-Warning (169177): 5 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin KEY[1] uses I/O standard 3.3-V LVTTL at E1 File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 81
-    Info (169178): Pin I2C_SDAT uses I/O standard 3.3-V LVTTL at F1 File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 87
-    Info (169178): Pin G_SENSOR_INT uses I/O standard 3.3-V LVTTL at M2 File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 85
-    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at R8 File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 75
-    Info (169178): Pin KEY[0] uses I/O standard 3.3-V LVTTL at J15 File: C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.v Line: 81
-Info (144001): Generated suppressed messages file C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.fit.smsg
+Warning (169177): 6 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
+    Info (169178): Pin KEY[1] uses I/O standard 3.3-V LVTTL at E1 File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 84
+    Info (169178): Pin I2C_SDAT uses I/O standard 3.3-V LVTTL at F1 File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 96
+    Info (169178): Pin G_SENSOR_INT uses I/O standard 3.3-V LVTTL at M2 File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 94
+    Info (169178): Pin CLOCK_50 uses I/O standard 3.3-V LVTTL at R8 File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 78
+    Info (169178): Pin KEY[0] uses I/O standard 3.3-V LVTTL at J15 File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 84
+    Info (169178): Pin SW[1] uses I/O standard 2.5 V at M1 File: C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.v Line: 88
+Info (144001): Generated suppressed messages file C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5263 megabytes
-    Info: Processing ended: Tue Oct 02 19:01:43 2018
-    Info: Elapsed time: 00:00:33
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Peak virtual memory: 5260 megabytes
+    Info: Processing ended: Sat Oct 27 18:54:35 2018
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:09
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/dariu/Desktop/DE0_NANO_GSensor/DE0_NANO_G_Sensor.fit.smsg.
+The suppressed messages can be found in C:/Users/Darius/Desktop/FPGA/GSensor-master/DE0_NANO_G_Sensor.fit.smsg.
 
 
